@@ -1,0 +1,34 @@
+{
+  "app": "MediaDesk",
+  "channel": "main",
+  "version": "0.6.4",
+  "title": "Updates from GitHub",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T02:25:46.567Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.6.4.mdpatch",
+    "size": 1891620,
+    "sha256": "3a638b3d4f8c4ac3ff5c420b905429c69a696c61a53685b811a97bbe2fbd2f71",
+    "files": 42
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.6.4",
+    "date": "2026-11-22",
+    "title": "Updates from GitHub",
+    "summary": "Mevedia now gets its updates from GitHub (therealbrott), so every installed copy can update, not only the PC with the updates folder.",
+    "sections": [
+      {
+        "type": "changed",
+        "heading": "Changed",
+        "items": [
+          {
+            "title": "Update source is GitHub",
+            "text": "The Main build now comes from github.com/therealbrott/mevedia-updates and the Beta build from github.com/therealbrott/mevedia-beta-updates. Updates are still signed, so a fake or damaged update is refused. Updates → Update source shows the address."
+          }
+        ]
+      }
+    ]
+  }
+}

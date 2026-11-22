@@ -1,0 +1,63 @@
+{
+  "app": "MediaDesk",
+  "version": "0.6.1",
+  "title": "Plays Everything",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T01:25:46.700Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.6.1.mdpatch",
+    "size": 1877361,
+    "sha256": "5f074587f9a8763d1840213283ed4188b3d13c9d8ce1b5fcbc980b387ac54fae",
+    "files": 41
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.6.1",
+    "date": "2026-11-22",
+    "title": "Plays Everything",
+    "summary": "Mevedia now opens practically every video, audio and image format used in production, including iPhone HEIC photos, RAW camera files and PSDs.",
+    "sections": [
+      {
+        "type": "new",
+        "heading": "New",
+        "items": [
+          {
+            "title": "Any video or audio format",
+            "text": "If a file can't play directly (ProRes, DNxHD, MXF, AVI/DivX, WMV, AVCHD .mts/.m2ts, older QuickTime, MPEG-2, AIFF, WMA, AC3, AMR and more), Mevedia makes a playable copy in the background and plays that. You'll see \"Converting this file so it can play here… 42%\". Camera files that only need repackaging (like most .mts clips) are ready in about a second, at full quality. Your original file is never changed, and the copy is kept, so it opens instantly next time."
+          },
+          {
+            "title": "iPhone photos, RAW and PSD",
+            "text": "HEIC/HEIF photos, RAW camera files (Canon CR2/CR3, Nikon NEF, Sony ARW, DNG, Fujifilm RAF, Olympus ORF, Panasonic RW2 and more) and Photoshop PSD/PSB files now show in the gallery and open full screen, with zoom. These work straight away, without the codec pack."
+          },
+          {
+            "title": "Codec pack",
+            "text": "The pro video and audio formats, plus TIFF, need a one-time download: Settings → Media → Codec pack → Download and install (about 110 MB). It's checked against Mevedia's signature before it's installed, so a damaged or altered download is refused. You can remove it any time."
+          },
+          {
+            "title": "Waveforms",
+            "text": "Audio files show a waveform above the player (with the codec pack installed)."
+          },
+          {
+            "title": "Preview cache",
+            "text": "Thumbnails and playable copies are kept in a cache. Settings → Media shows how much space it uses, lets you set a limit (2 to 50 GB, default 10 GB) and clear it. When it's full, the oldest items are removed first."
+          }
+        ]
+      },
+      {
+        "type": "improved",
+        "heading": "Improved",
+        "items": [
+          {
+            "title": "Faster, lighter gallery",
+            "text": "The gallery now shows small thumbnails instead of loading every full-size photo and video. Video tiles show their length straight away, and big folders scroll much more smoothly."
+          },
+          {
+            "title": "More file types found when scanning",
+            "text": "Scanning now also picks up HEIC, RAW, TIFF, MTS/M2TS, MXF, WMV, FLV, MPG, VOB, 3GP, AIFF, WMA, FLAC, Opus and project files (Premiere, After Effects, DaVinci, InDesign, Sketch). Press Scan once to add them."
+          }
+        ]
+      }
+    ]
+  }
+}

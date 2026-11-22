@@ -1,0 +1,62 @@
+{
+  "app": "MediaDesk",
+  "channel": "main",
+  "version": "0.6.3",
+  "title": "Beta & Main",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T02:19:36.103Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.6.3.mdpatch",
+    "size": 1891495,
+    "sha256": "bfead49954b1bb8f32161213f486723e1c2ea2a18d2f0ec925dbffda85c07644",
+    "files": 42
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.6.3",
+    "date": "2026-11-22",
+    "title": "Beta & Main",
+    "summary": "Mevedia now has two builds: Main for everyone and Beta for testers. Updates come from GitHub, and testers decide together which beta changes go to Main.",
+    "sections": [
+      {
+        "type": "new",
+        "heading": "New",
+        "items": [
+          {
+            "title": "Main and Beta builds",
+            "text": "Updates → Build shows which build this PC is on. Everyone gets the Main build. Testers with a beta code can press \"Have a beta code?\", join, and switch to the Beta build to get new changes first. Switching back to Main installs the latest Main build, even if it's older than your beta, and your data stays as it is. \"Leave the beta program on this PC\" hides the Beta option again."
+          },
+          {
+            "title": "Beta review page",
+            "text": "On the Beta build, a new \"Beta review\" page in the sidebar lists every beta change that isn't in Main yet. For each one, tick \"Push to main\" or \"Keep in beta\" and add a note if you like. Everyone's ticks are saved on GitHub, so all testers see them. A change counts as ready when someone ticked push and nobody ticked keep. \"Copy list for Claude\" copies the result to paste in the chat. The first time, add your name and a GitHub token (it's stored encrypted by Windows)."
+          },
+          {
+            "title": "Updates from GitHub",
+            "text": "Mevedia now downloads updates from GitHub instead of a folder on Toast's PC, so every installed copy can get them. Updates are still signed, so a fake or damaged update is refused."
+          }
+        ]
+      },
+      {
+        "type": "fixed",
+        "heading": "Fixed",
+        "items": [
+          {
+            "title": "Taskbar icon",
+            "text": "The taskbar showed a grey atom (the logo of Electron, the engine Mevedia runs on) instead of the Mevedia logo. Mevedia now tells Windows which app it is, so the taskbar shows the gold Mevedia mark. If you pinned the old one, unpin it and pin Mevedia again."
+          }
+        ]
+      },
+      {
+        "type": "known",
+        "heading": "Good to know",
+        "items": [
+          {
+            "title": "First move to GitHub",
+            "text": "Until the GitHub account name is filled in, Mevedia keeps using the updates folder on D:, exactly as before."
+          }
+        ]
+      }
+    ]
+  }
+}

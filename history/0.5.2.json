@@ -1,0 +1,33 @@
+{
+  "app": "MediaDesk",
+  "version": "0.5.2",
+  "title": "Tray Fix",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T04:10:36.175Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.5.2.mdpatch",
+    "size": 297011,
+    "sha256": "da9b5e935da5387d0c3d072473a841a30aea851f6b266035a6588e5a5482cbfb",
+    "files": 19
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.5.2",
+    "date": "2026-11-19",
+    "title": "Tray Fix",
+    "summary": "Bringing MediaDesk back from the tray now opens the window properly.",
+    "sections": [
+      {
+        "type": "fixed",
+        "heading": "Fixed",
+        "items": [
+          {
+            "title": "Restoring from the tray",
+            "text": "With \"Hide to the tray when minimized\" on, clicking the tray icon (or opening MediaDesk again) only put it back on the taskbar as a minimized button. It now opens the window straight away, ready to use."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "app": "MediaDesk",
+  "version": "0.5.1",
+  "title": "Light Mode Fix",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T04:06:17.233Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.5.1.mdpatch",
+    "size": 296778,
+    "sha256": "f000c4d123f4a15385b2b095642f9837e5086a647c7dee13b7a5a84418e33c2a",
+    "files": 19
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.5.1",
+    "date": "2026-11-19",
+    "title": "Light Mode Fix",
+    "summary": "Light mode now actually turns the app light.",
+    "sections": [
+      {
+        "type": "fixed",
+        "heading": "Fixed",
+        "items": [
+          {
+            "title": "Light mode",
+            "text": "Choosing Light (or Match Windows while Windows is in light mode) highlighted the option but the app stayed dark. Every screen now switches to the light theme instantly."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "app": "MediaDesk",
+  "version": "0.5.3",
+  "title": "Calmer Update Checks",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T21:31:34.194Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.5.3.mdpatch",
+    "size": 298306,
+    "sha256": "fdba0366a6aece8bd2f8b935c2098e5a36c037ca9cc046ab6781fb656328692c",
+    "files": 19
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.5.3",
+    "date": "2026-11-19",
+    "title": "Calmer Update Checks",
+    "summary": "MediaDesk now checks for updates once a day by default, instead of every hour or less.",
+    "sections": [
+      {
+        "type": "changed",
+        "heading": "Changed",
+        "items": [
+          {
+            "title": "New update-check schedule",
+            "text": "Settings → Updates now offers three choices: \"Once a day\" (the new default), \"Once a week\" or \"Each time MediaDesk starts\". The old 15-minute, 30-minute, 1-hour and 3-hour options are gone. If you had one of them picked, you've been moved to \"Once a day\" automatically. Your other settings are untouched."
+          },
+          {
+            "title": "The schedule survives restarts and sleep",
+            "text": "MediaDesk remembers when it last checked. Restarting the app no longer triggers an extra check, and if the PC was asleep or off for days, it checks once when it's back instead of waiting out a full timer."
+          },
+          {
+            "title": "See when it last checked",
+            "text": "Settings → Updates shows the date and time of the last automatic check. The \"Check for updates\" button on the Updates page still checks right away whenever you want."
+          }
+        ]
+      },
+      {
+        "type": "new",
+        "heading": "New",
+        "items": [
+          {
+            "title": "Freeze detection in the Error log",
+            "text": "If the MediaDesk window ever stops responding, that now appears in the Error log (and again when it recovers, marked in green as \"info\"). If it happens, the log tells us exactly when and in what state the window was."
+          }
+        ]
+      }
+    ]
+  }
+}

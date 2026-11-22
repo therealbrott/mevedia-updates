@@ -1,0 +1,86 @@
+{
+  "app": "MediaDesk",
+  "version": "0.5.0",
+  "title": "Desktop Life",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T04:03:44.909Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.5.0.mdpatch",
+    "size": 296327,
+    "sha256": "d0b4ae0c98ef9d67889fc7ccacb000e917c2e90d23775146f935050b8758eba0",
+    "files": 19
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.5.0",
+    "date": "2026-11-19",
+    "title": "Desktop Life",
+    "summary": "MediaDesk now behaves like a proper desktop app: it can start with Windows, live in the tray, switch to light mode, and has a Settings page for all of it.",
+    "sections": [
+      {
+        "type": "new",
+        "heading": "New",
+        "items": [
+          {
+            "title": "Settings page",
+            "text": "Sidebar → Settings holds everything about how MediaDesk starts, looks and updates on this PC."
+          },
+          {
+            "title": "Run when Windows starts",
+            "text": "Turn it on in Settings and MediaDesk opens by itself after you sign in to Windows.",
+            "details": [
+              "\"Start minimized to the tray\" makes it start quietly in the tray instead of opening a window.",
+              "Off by default. It only works in the installed app."
+            ]
+          },
+          {
+            "title": "Hide to tray",
+            "text": "With \"Hide to the tray when minimized\" on, minimizing tucks MediaDesk into the tray next to the clock. Click the tray icon to bring it back."
+          },
+          {
+            "title": "Tray shortcuts",
+            "text": "Right-click the tray icon to jump straight to Dashboard, Clients, New client, Pipeline or Media library, check for updates, open Settings, or quit.",
+            "details": [
+              "When an update is waiting, the tray menu shows \"Update to V…\"."
+            ]
+          },
+          {
+            "title": "Light mode",
+            "text": "Choose Dark, Light or Match Windows in Settings → Appearance. Match Windows follows your Windows setting live, even while MediaDesk is open."
+          },
+          {
+            "title": "Update schedule",
+            "text": "Turn automatic update checks on or off, and pick how often: every 15 minutes, 30 minutes, hour, 3 hours, or only at startup."
+          },
+          {
+            "title": "App icon",
+            "text": "MediaDesk has its own icon in the window and the tray (a placeholder until the final logo is chosen)."
+          }
+        ]
+      },
+      {
+        "type": "improved",
+        "heading": "Improved",
+        "items": [
+          {
+            "title": "Data folder",
+            "text": "Settings shows where your data lives on this PC, with a button to open it."
+          }
+        ]
+      },
+      {
+        "type": "known",
+        "heading": "Good to know",
+        "items": [
+          {
+            "text": "The desktop shortcut and Start menu icon change with the next full installer. Updates can only change the icon inside the app and the tray."
+          },
+          {
+            "text": "Closing the window with × still quits MediaDesk. Only minimizing hides it to the tray."
+          }
+        ]
+      }
+    ]
+  }
+}

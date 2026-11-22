@@ -1,0 +1,90 @@
+{
+  "app": "MediaDesk",
+  "version": "0.4.0",
+  "title": "The Patcher Update",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T23:49:23.992Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.4.0.mdpatch",
+    "size": 261737,
+    "sha256": "b1aeba24583aef5a3f65fc2fe38b30e974acc00ffbe4f59872c1e52f4259bb29",
+    "files": 14
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.4.0",
+    "date": "2026-11-19",
+    "title": "The Patcher Update",
+    "summary": "MediaDesk now updates itself. Install it once, and every future update is a quick download behind an Update button. No reinstalling, and your data stays exactly where it is.",
+    "sections": [
+      {
+        "type": "new",
+        "heading": "New",
+        "items": [
+          {
+            "title": "One-click updates",
+            "text": "When a new version is out, an \"Update available\" badge lights up at the bottom of the sidebar. Click it, press Update, and MediaDesk downloads only the changed app files (usually well under 1 MB) and restarts into the new version in a few seconds.",
+            "details": [
+              "MediaDesk checks for updates 5 seconds after it opens and then every 30 minutes while it's running.",
+              "You can also check any time from Sidebar → Updates → Check for updates.",
+              "Your clients, projects, deliverables and media index are never touched by an update."
+            ]
+          },
+          {
+            "title": "Updates page",
+            "text": "A new Updates screen shows the version you're on, whether it came from the installer or a patch, what's waiting to be installed (with its patch notes), the update source, and a history of every update on this PC."
+          },
+          {
+            "title": "Automatic safety net",
+            "text": "If an update ever fails to start, MediaDesk notices on the next launch and automatically goes back to the last version that worked. It then blocks the broken version so it isn't offered again. You can also roll back manually from the Updates page."
+          },
+          {
+            "title": "Tamper-proof updates",
+            "text": "Every update is digitally signed. MediaDesk refuses any update that isn't signed with the MediaDesk key or whose files were changed after publishing, even if someone gets access to the updates folder."
+          },
+          {
+            "title": "Patch notes inside the app",
+            "text": "Sidebar → Patch notes shows the full history of what changed in each version, and right after you update, a \"What's new\" window pops up with that version's notes."
+          },
+          {
+            "title": "Proper installer",
+            "text": "MediaDesk now installs like a normal Windows app: a one-click installer, a desktop shortcut and a Start menu entry. It only opens one window. Launching it again just brings the existing window to the front."
+          },
+          {
+            "title": "Phone numbers with country codes",
+            "text": "The client phone field now has a country picker with flags, dial codes and search. It starts on your own country, detected from your PC's time zone (so Egypt, +20, here), and you can type a name, \"+966\" or \"SA\" to jump to another.",
+            "details": [
+              "The number is checked against the chosen country, and an invalid number can't be saved.",
+              "Type it any way you like (010 1234 5678, 010-1234-5678…) and it's stored in one clean international format.",
+              "The client page shows it with its flag, e.g. 🇪🇬 +20 10 12345678.",
+              "Existing phone numbers keep working and are converted the next time you edit them."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "changed",
+        "heading": "Changed",
+        "items": [
+          {
+            "title": "Version names",
+            "text": "Every version now has three parts everywhere: V0.4.0, V0.4.1, V0.5.0… The first number is the big stage (0 = pre-release), the second is the edition (each major update), and the third is the mini-patch inside that edition (1–100)."
+          }
+        ]
+      },
+      {
+        "type": "known",
+        "heading": "Known limitations",
+        "items": [
+          {
+            "text": "Updates currently come from a folder on the Home PC. Sharing them with teammates' PCs needs a shared update source (a shared folder or an online link), and that's coming next."
+          },
+          {
+            "text": "Big engine upgrades (rare) still need the full installer. When that happens the Updates page says so and gives you a button to get it."
+          }
+        ]
+      }
+    ]
+  }
+}

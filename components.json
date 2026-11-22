@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "app": "MediaDesk",
+  "date": "2026-11-22T01:19:55.107Z",
+  "components": {
+    "codecs": {
+      "version": "9.0.2",
+      "title": "FFmpeg 9.0.2 (LGPL)",
+      "license": "LGPL-2.1-or-later",
+      "source": "https://github.com/BtbN/FFmpeg-Builds",
+      "platform": "win32",
+      "files": [
+        {
+          "name": "ffmpeg.exe",
+          "path": "components/codecs-9.0.2/ffmpeg.exe.gz",
+          "size": 134459904,
+          "gzSize": 57185567,
+          "sha256": "1635793aeff45391832f399ac79a167da6ed2d416753909f9301cb727719a386"
+        },
+        {
+          "name": "ffprobe.exe",
+          "path": "components/codecs-9.0.2/ffprobe.exe.gz",
+          "size": 134259200,
+          "gzSize": 57080186,
+          "sha256": "b660133acafa868cb1cdeb73f235a4bee1cbdd3218b6816664cc71c55e61b052"
+        },
+        {
+          "name": "LICENSE.txt",
+          "path": "components/codecs-9.0.2/LICENSE.txt.gz",
+          "size": 7651,
+          "gzSize": 2603,
+          "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+        }
+      ]
+    }
+  }
+}

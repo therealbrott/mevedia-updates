@@ -1,0 +1,37 @@
+{
+  "app": "MediaDesk",
+  "version": "0.4.1",
+  "title": "First Patch",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-18T23:51:36.957Z",
+  "electron": 45,
+  "patch": {
+    "file": "patches/mediadesk-0.4.1.mdpatch",
+    "size": 262138,
+    "sha256": "dbaca0660abaeb90db48a534df26be52848537b7e99a887141a26841555dfeab",
+    "files": 14
+  },
+  "installer": "MediaDesk-Setup-0.4.0.exe",
+  "notes": {
+    "version": "0.4.1",
+    "date": "2026-11-19",
+    "title": "First Patch",
+    "summary": "The first update delivered through the new Update button, with two small fixes found while testing the installed app.",
+    "sections": [
+      {
+        "type": "fixed",
+        "heading": "Fixed",
+        "items": [
+          {
+            "title": "Version in the window title",
+            "text": "The window title now reads \"MediaDesk V0.4.1\" instead of just \"MediaDesk\", so you can always see which version you're on, even from the taskbar."
+          },
+          {
+            "title": "Esc closes pop-ups",
+            "text": "Every pop-up (new client, edit project, file preview, What's new…) now closes with the Esc key. If the country list is open inside a pop-up, Esc closes just the list first."
+          }
+        ]
+      }
+    ]
+  }
+}
